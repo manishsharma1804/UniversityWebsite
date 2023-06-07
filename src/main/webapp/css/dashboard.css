@@ -1,0 +1,328 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+	font-family: 'Poppins';
+	font-size: 13px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: black;
+	height: 8vh;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.formno {
+	text-align: end;
+}
+
+.side-nav {
+	background: black;
+	position: fixed;
+	left: 0;
+	width: 230px;
+	height: 100%;
+	transition: 0.5s;
+	transition-property: left;
+	overflow-x: hidden;
+	padding-top: 50px;
+	border-right: 2px solid white;
+}
+
+.logo {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.side-nav.image {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+
+.side-nav a {
+	color: #fff;
+	display: block;
+	width: 100%;
+	line-height: 40px;
+	font-size: 10px;
+	text-decoration: none;
+	box-sizing: border-box;
+	transition: 0.5s;
+	transition-property: background;
+}
+
+.side-nav a span {
+	padding-left: 20px;
+	font-size: 10px;
+}
+
+.side-nav i {
+	padding-left: 20px;
+}
+
+.side-nav a:hover {
+	background: #0a7e96;
+}
+
+.side-nav h2 {
+	margin: 0;
+	font-size: 25px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.item a .dropdown {
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	transition: 0.3 s ease;
+}
+
+.item .sub-menu span {
+	padding-left: 20px;
+}
+
+.item .sub-menu i {
+	padding-left: 60px;
+}
+
+.item-b .sub-menu span {
+	padding-left: 20px;
+}
+
+.item-b .sub-menu i {
+	padding-left: 60px;
+}
+
+.item-b .sidearrow {
+	justify-content: right;
+}
+
+.sub-menu {
+	display: none;
+}
+
+.item-b:hover>.sub-menu {
+	display: block;
+}
+
+.requird {
+	margin-bottom: 0px;
+}
+
+.requird::after {
+	content: "*";
+	color: red;
+	font-size: 15px;
+}
+
+.student-management {
+	padding: 0px;
+	/*padding-top:9vh;*/
+	margin-left: 231px;
+}
+
+.add-student {
+	width: 100%;
+	height: auto;
+	padding: 0px;
+}
+
+fieldset {
+	margin-bottom: 20px !important;
+	border: 1px solid #000000 !important;
+	border-radius: 3px !important;
+	box-shadow: 0 0 8px #999;
+}
+
+legend {
+	width: auto;
+	text-align: center;
+	padding: 0 5px !important;
+	background-color: whitesmoke;
+}
+
+.add-student h3 {
+	padding-top: 10px;
+}
+
+.personal-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	height: 30px;
+	width: 100%;
+	border: 1px solid #ced4da;
+	outline: none;
+	margin-bottom: 15px;
+	border-radius: .25vh;
+	color: #000000;
+	background-color: #fff;
+	text-transform: uppercase;
+}
+
+.input-h {
+	hyphens: auto;
+}
+
+.input-b {
+	height: 30px;
+	width: 100%;
+	border: 1px solid #ced4da;
+	outline: none;
+	border-radius: .25vh;
+	color: #888888;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+.form-control {
+	margin-bottom: 15px;
+}
+
+.input-a {
+	height: 30px;
+	width: 100%;
+	border: 1px solid #ced4da;
+	outline: none;
+	border-radius: .25vh;
+	color: #000000;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+.rw-a textarea {
+	resize: none;
+	border: 1px solid #ced4da;
+	outline: none;
+	border-radius: .25vh;
+	color: #000000;
+	background-color: #ffff;
+	margin-bottom: 15px;
+
+}
+
+.rw {
+	padding: 0px 20px 0 40px;
+
+
+}
+
+.rw-a {
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+
+.input-field {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+
+.submit {
+	margin-bottom: 10px;
+	color: #ffffff;
+	background-color: #14213d;
+	height: 40px;
+	width: 300px;
+	border: none;
+	border-radius: 0.25vh;
+	display: flex;
+	justify-content: center;
+}
+
+.dob {
+	display: flex;
+}
+
+option {
+	color: black;
+}
+
+.search {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.submitsearch {
+	color: #14213d;
+	background-color: #14213d;
+	height: 30px;
+	width: 50px;
+	border: none;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px
+}
+
+.search i {
+	position: relative !important;
+	top: 10px;
+	left: -53px;
+	color: #ffffff;
+	width: 40px;
+	cursor: pointer;
+}
+
+.dasboard-1 {
+	margin-left: 230px;
+}
+
+.cardd {
+	height: 110px;
+	width: 240px;
+	background-color: red;
+	border-radius: 5px;
+	margin-top: 20px
+}
+
+.form {
+	background: whitesmoke;
+	border-radius: 3px;
+	padding: 30px 30px 5px 30px;
+	margin: 10px;
+}
+
+.text-info {
+	color: #17a2b8;
+}
+
+h6 b {
+	font-size: 15px;
+}
+
+
+.topp .req {
+	font-size: 8px;
+	margin: 0%;
+	padding-left: 30px;
+}
