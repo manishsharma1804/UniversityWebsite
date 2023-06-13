@@ -29,7 +29,10 @@
         <div class="pass">Forgot Password?</div>
         <input type="submit" value="Login">
         <div class="signup_link">
-          Not a member? <a href="#">Signup</a>
+          <i class="fa-solid fa-house"></i>
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-solid fa-phone"></i>
+          
         </div>
       </form>
     </div>

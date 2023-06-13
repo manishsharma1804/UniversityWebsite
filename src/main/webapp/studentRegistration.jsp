@@ -31,7 +31,7 @@
                      <div class="col-md-4">
                         <div class="rw-a">
                            <label class="requird" for="aadhar">Aadhar Number</label>
-                           <input type="text" id="aadhar" oninput="formatAadhar(this)" maxlength="14" placeholder="Enter Valid AADHAR Number" required>
+                           <input type="text" id="aadhar" oninput="formatAadhar(this)" maxlength="14" pattern="[0-9]*" inputmode="numeric" placeholder="Enter Valid AADHAR Number"  required>
                         </div>
                      </div>
                      <div class="col-md-4">
@@ -286,7 +286,7 @@
                         </div>
                      </div>
                      <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
+                        <label for="inputState" class="requird" >State</label>
                         <select class="form-control inputState-a">
                            <option value="SelectState">Select State</option>
                            <option value="Andra Pradesh">Andra Pradesh</option>
@@ -331,7 +331,7 @@
                      <div class="form-group col-md-4">
                         <label for="inputDistrict">District</label>
                         <select class="form-control inputDistrict-a">
-                           <option value="">Select District</option>
+                           <option value="">Select State First</option>
                         </select>
                      </div>
                      <div class="col-md-4">
@@ -478,7 +478,7 @@
                </div>
             </fieldset>
             <div class="input-field">
-               <input type="Submit" class="submit" value="Register">
+               <input type="Submit"  name="btn" class="submit" value="Register">
             </div>
          </form>
       </div>

@@ -192,26 +192,6 @@
 	</div>
 </section>
 
-<!----About-->
-
-<section>
-	<div class="container">
-		<div class="row">
-    		<div class="col-12 col-md-8">
-      			<h4 class="subhead">Our Institue</h4>
-     			<h2 class="heading">About My College</h2>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.If you are going to use a passage.</p>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.If you are going to use a passage of anything embarrassing hidden in the middle of text Lorem ipsum. </p>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.If you are going to use a passage of a Lorem ipsum</p>
-      			<a href="aboutUs.jsp">Read More</a>
-    		</div>
-    		<div class="col-12 col-md-4">
-   				<img src="imga/about-us.jpg">
-   			</div>
-  		</div>
-	</div>
-</section>
-
 <!-- ------- CAMPUS --------->
 
 <section  class="campus">
@@ -221,37 +201,37 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4 col-lg-4 campus-gallery">
-                <img src="img/parking.png">
+                <img src="img/maincampus.jpg">
             <div class="layer">
-                <h3>Parking</h3>
+                <h3>Campus</h3>
             </div>
             </div>
         
             <div class="col-12 col-md-4 col-lg-4 campus-gallery">
-                <img src="img/parking.png">
+                <img src="img/auditorium.jpg">
             <div class="layer">
-                <h3>Parking</h3>
+                <h3>Auditorium</h3>
             </div>
             </div>
 
             <div class="col-12 col-md-4 col-lg-4 campus-gallery">
-                <img src="img/parking.png">
+                <img src="img/lib.jpg">
             <div class="layer">
-                <h3>Parking</h3>
+                <h3>Library</h3>
             </div>
             </div>
 
             <div class="col-12 col-md-4 col-lg-4 campus-gallery">
-                <img src="img/parking.png">
+                <img src="img/classroom.jpg">
             <div class="layer">
-                <h3>Parking</h3>
+                <h3>ClassRoom</h3>
             </div>
             </div>
 
             <div class="col-12 col-md-4 col-lg-4 campus-gallery">
-                <img src="img/parking.png">
+                <img src="img/PlayGround.jpg">
             <div class="layer">
-                <h3>Parking</h3>
+                <h3>Sports</h3>
             </div>
             </div>
 
@@ -276,44 +256,44 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4 facilities-a">
-                    <img src="img/background.png" alt="">
-                    <h3>Well Equipped Labs</h3>
-                    <p>Well Equipped Labs. Labs are equipped with world class equipments and facilities based on the latest technology pertaining to different sectors.</p>
+                    <img src="img/computerlabb.jpeg" alt="">
+                    <h3>Computer Lab</h3>
+                    <p>The College has high tech computer resource room with more than 50 computers.</p>
                     <br>
                     <a class="btn1 red-btn" href="#">EXPLORE</a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 facilities-a">
-                    <img src="img/background.png" alt="">
-                    <h3>Well Equipped Labs</h3>
-                    <p>Well Equipped Labs. Labs are equipped with world class equipments and facilities based on the latest technology pertaining to different sectors.</p>
+                    <img src="img/PLAY.jpeg" alt="">
+                    <h3>Barrier Free Playground</h3>
+                    <p>The College has well maintained playgrounds for indoor and outdoor activities.</p>
                     <br>
                     <a class="btn1 red-btn" href="#">EXPLORE</a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 facilities-a">
-                    <img src="img/background.png" alt="">
-                    <h3>Well Equipped Labs</h3>
-                    <p>Well Equipped Labs. Labs are equipped with world class equipments and facilities based on the latest technology pertaining to different sectors.</p>
+                    <img src="img/medical.jpg" alt="">
+                    <h3>Health Care Room</h3>
+                    <p>The College has its medical room in case of emergency/first-aid requirement</p>
                     <br>
                     <a class="btn1 red-btn" href="#">EXPLORE</a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 facilities-a">
-                    <img src="img/background.png" alt="">
-                    <h3>Well Equipped Labs</h3>
-                    <p>Well Equipped Labs. Labs are equipped with world class equipments and facilities based on the latest technology pertaining to different sectors.</p>
+                    <img src="img/wifii.png" alt="">
+                    <h3>Wi-Fi Campus</h3>
+                    <p>The College is fully Wi-Fi with high speed internet facility.</p>
                     <br>
                     <a class="btn1 red-btn" href="#">EXPLORE</a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 facilities-a">
-                    <img src="img/background.png" alt="">
-                    <h3>Well Equipped Labs</h3>
-                    <p>Well Equipped Labs. Labs are equipped with world class equipments and facilities based on the latest technology pertaining to different sectors.</p>
+                    <img src="img/classroom1.jpg" alt="">
+                    <h3>Research Centre</h3>
+                    <p>The College has well established research centre where faculty and students work on the research issues related to society and teaching learning.</p>
                     <br>
                     <a class="btn1 red-btn" href="#">EXPLORE</a>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 facilities-a">
-                    <img src="img/background.png" alt="">
-                    <h3>Well Equipped Labs</h3>
-                    <p>Well Equipped Labs. Labs are equipped with world class equipments and facilities based on the latest technology pertaining to different sectors.</p>
+                    <img src="img/14.jpg" alt="">
+                    <h3>Canteen</h3>
+                    <p>The College has well organized and hygenic Canteen.</p>
                     <br>
                     <a class="btn1 red-btn" href="#">EXPLORE</a>
                 </div>
@@ -381,38 +361,38 @@
       <!-- Photo Grid -->
       <div class="row"> 
         <div class="column">
-          <img src="img/background.png" style="width:100%">
-          <img src="img/background.png" style="width:100%">
-          <img src="img/background.png" style="width:100%">
-          <img src="img/background.png" style="width:100%">
-          <img src="img/background.png" style="width:100%">
-          <img src="img/background.png" style="width:100%">
-          <img src="img/background.png" style="width:100%">
+          <img src="img/1.jpg" style="width:100%">
+          <img src="img/2.jpg" style="width:100%">
+          <img src="img/3.jpg" style="width:100%">
+          <img src="img/4.jpg" style="width:100%">
+          <img src="img/5.jpeg" style="width:100%">
+          <img src="img/6.jpeg" style="width:100%">
+          <img src="img/7.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
+            <img src="img/8.jpg" style="width:100%">
+            <img src="img/9.jpg" style="width:100%">
+            <img src="img/10.jpg" style="width:100%">
+            <img src="img/11.jpg" style="width:100%">
+            <img src="img/12.jpg" style="width:100%">
+            <img src="img/13.jpg" style="width:100%">
         </div>  
         <div class="column">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
+            <img src="img/14.jpg" style="width:100%">
+            <img src="img/15.jpg" style="width:100%">
+            <img src="img/16.jpg" style="width:100%">
+            <img src="img/17.jpg" style="width:100%">
+            <img src="img/18.jpg" style="width:100%">
+            <img src="img/19.jpg" style="width:100%">
+            <img src="img/20.jpg" style="width:100%">
         </div>
         <div class="column">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
-            <img src="img/background.png" style="width:100%">
+            <img src="img/21.jpg" style="width:100%">
+            <img src="img/22.jpg" style="width:100%">
+            <img src="img/23.jpeg" style="width:100%">
+            <img src="img/24.jpeg" style="width:100%">
+            <img src="img/25.jpeg" style="width:100%">
+            <img src="img/26.jpeg" style="width:100%">
         </div>
       </div>
       
