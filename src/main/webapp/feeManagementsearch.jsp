@@ -7,15 +7,15 @@ if(check==null){ response.sendRedirect("adminlogin.jsp"); } %>
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/dashboard.css" />
-    <title>VIEW STUDENT PROFILE</title>
+    <title>Fee Management Panel</title>
   </head>
   <body class="body">
     <jsp:include page="sideNavAdmin.jsp"></jsp:include>
 
-    <section class="student-management">
+    <section class="fee-management">
       <section class="fee-submission">
         <div class="add-student">
-          <h3 style="text-align: center">SEARCH STUDENT PROFILE</h3>
+          <h3 style="text-align: center">Fee Management</h3>
 
           <form action="action.jsp" method="post">
             <div class="search">
@@ -31,11 +31,10 @@ if(check==null){ response.sendRedirect("adminlogin.jsp"); } %>
                 id="btn"
                 type="submit"
                 name="btn"
-                value="searchStudent"
+                value="search"
                 class="submitsearch"
-                
               >
-			<i class="fa-solid fa-search"></i>
+                <i class="fa-solid fa-search"></i>
               </button>
             </div>
           </form>

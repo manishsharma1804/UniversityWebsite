@@ -27,26 +27,21 @@ pageEncoding="UTF-8"%>
   </head>
   <body>
     <section>
-      <div class="center">
-        <h1>Login</h1>
-        <form method="post">
+      <div class="centerAdmin">
+        <h1>Admin Login</h1>
+        <form action="adminloginAction.jsp" method="post">
           <div class="txt_field">
-            <input type="text" required />
+            <input type="text" required name="username" />
             <span></span>
             <label>Username</label>
           </div>
           <div class="txt_field">
-            <input type="password" required />
+            <input type="password" required name="password" />
             <span></span>
             <label>Password</label>
           </div>
           <div class="pass">Forgot Password?</div>
-          <input type="submit" value="Login" />
-          <div class="signup_link">
-            <i class="fa-solid fa-house"></i>
-            <i class="fa-solid fa-envelope"></i>
-            <i class="fa-solid fa-phone"></i>
-          </div>
+          <input type="submit" value="login" name="btn" />
         </form>
       </div>
     </section>

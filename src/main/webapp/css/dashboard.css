@@ -122,9 +122,17 @@ input::-webkit-inner-spin-button {
 	display: none;
 }
 
-.item-b:hover>.sub-menu {
+/*.item-b:hover>.sub-menu {
 	display: block;
+}*/
+.item-b .sub-menu {
+  display: none;
 }
+
+.item-b.active .sub-menu {
+  display: block;
+}
+
 
 .requird {
 	margin-bottom: 0px;
@@ -174,6 +182,17 @@ legend {
 .input {
 	height: 30px;
 	width: 100%;
+	border: 1px solid #ced4da;
+	outline: none;
+	margin-bottom: 15px;
+	border-radius: .25vh;
+	color: #000000;
+	background-color: #fff;
+	text-transform: uppercase;
+}
+.input-aaa {
+	height: 30px;
+	width: 80%;
 	border: 1px solid #ced4da;
 	outline: none;
 	margin-bottom: 15px;
@@ -283,8 +302,27 @@ option {
 	margin-left: 20px;
 	margin-right: 20px
 }
+.submitsearch-r{
+	display: inline-block;
+    background-color: #14213d;
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px 16px;
+    border-radius: 4px;
+    text-align: center;
+}
 
 .search i {
+	position: relative !important;
+	top: 10px;
+	/*left: -53px;*/
+	color: #ffffff;
+	width: 40px;
+	cursor: pointer;
+}
+.search .searchhh {
 	position: relative !important;
 	top: 10px;
 	left: -53px;
@@ -300,7 +338,7 @@ option {
 .cardd {
 	height: 110px;
 	width: 240px;
-	background-color: red;
+	background-color: #d1ecf1;
 	border-radius: 5px;
 	margin-top: 20px
 }
@@ -315,6 +353,9 @@ option {
 .text-info {
 	color: #17a2b8;
 }
+.text-infoo{
+	color: darkred;
+}
 
 h6 b {
 	font-size: 15px;
@@ -325,4 +366,37 @@ h6 b {
 	font-size: 8px;
 	margin: 0%;
 	padding-left: 30px;
+}
+
+/* Fee Management */
+      
+.fee-management{
+	padding:0px;
+	margin-left: 21%;
+	margin-right: 15px;
+	
+}
+
+
+tbody td {
+	border: 1px solid grey;
+	padding: 0 5px;
+}  
+tbody th {
+	padding: 0 15px;
+} 
+thead tr th {
+	border: 1px solid grey;
+}
+tr:nth-child(even){
+	background-color: #dee2e6;
+}
+.btnnn{
+	text-align: center;
+	padding: 10px;
+	color: blue;
+}
+.darkred-button{
+	color: white;
+	background-color: darkred;
 }
