@@ -456,7 +456,7 @@
               </div>
             </div>
           </fieldset>
-
+<%-- 
           <fieldset>
             <legend>Facilities Availed</legend>
             <div class="container-fluid">
@@ -513,7 +513,7 @@
                 </div>
               </div>
             </div>
-          </fieldset>
+          </fieldset> --%>
           <div class="input-field">
   			<input type="submit" name="btn" class="submit" value="Search Other Student ?" onclick="redirectToPage()">
 		</div>

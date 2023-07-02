@@ -35,7 +35,7 @@ input::-webkit-inner-spin-button {
 }
 
 .side-nav {
-	background: black;
+	background: #068DA9;
 	position: fixed;
 	left: 0;
 	width: 230px;

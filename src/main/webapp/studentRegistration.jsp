@@ -33,7 +33,7 @@
                   <input type="text" class="input" placeholder="Full Name as per Document" required name="name">
                   <input type="hidden" value="1" name="status">
                   <input type="hidden" value="UNI/2023/<%=numbers%>" required name="admissionNumber">
-                  <input type="hidden" value=<%=number%>" required name="formNumber">
+                  <input type="hidden" value=<%=number%> required name="formNumber">
                 </div>
               </div>
               <div class="col-md-4">
@@ -428,7 +428,7 @@
             </div>
           </div>
         </fieldset>
-        <fieldset>
+     <!--    <fieldset>
           <legend>Facilities Availed</legend>
           <div class="container-fluid">
             <div class="row">
@@ -483,7 +483,7 @@
               </div>
             </div>
           </div>
-        </fieldset>
+        </fieldset> -->
         <div class="input-field">
           <input type="Submit" name="btn" class="submit" value="submit">
         </div>

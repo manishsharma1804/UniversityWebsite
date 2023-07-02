@@ -15,7 +15,7 @@ String btn = request.getParameter("btn");
 if(btn.equals("submit")){
 	int i=DashboardDao.save(d);  
 	if(i>0){  
-	response.sendRedirect("index.jsp");  
+	response.sendRedirect("dashboard.jsp");  
 	}else{  
 	response.sendRedirect("index.jsp");  
 	} 
@@ -47,9 +47,12 @@ if(btn.equals("search")){
 				setSession */
 				response.sendRedirect("feeManagement.jsp");
 			}else
-			{
-				out.print("Submit Failed");
-			}
+				%>
+		    <script>
+		        alert("Invalid Form Number! Please Try Again");
+		        window.location.href = "searchStudent.jsp";
+		    </script>
+		<%
 		}
 
 // search student
@@ -118,9 +121,12 @@ if(btn.equals("searchStudent")){
 	
 	}
 	else
-	{
-		out.print("Submit Failed");
-	}
+		%>
+    <script>
+        alert("Invalid Form Number! Please Try Again");
+        window.location.href = "searchStudent.jsp";
+    </script>
+<%
 }
 // update student
 if (btn.equals("update")) {	
